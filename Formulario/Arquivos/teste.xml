@@ -1,0 +1,31 @@
+<Screen>
+    <Row>
+        <Column>
+            <Textbox name="txtbox1" label="Textbox 1"/>
+        </Column>
+    </Row>
+    <Row>
+        <Column>
+            <Numericbox name="numericbox1" label="Numeric 2"/>
+        </Column>
+ 	<Column>
+            <Textbox name="maxTxtbox" label="Textbox Com Limite de Caracteres" max-length="50"/>
+        </Column>
+    </Row>
+    <Row>
+        <Column>
+            <LabelElement name="lblSmall" label="Small Label" type="small"/>
+        </Column>
+	<Column>
+            <LabelElement name="lblSmall" label="Small Label" type="medium"/>
+        </Column>
+	<Column>
+            <LabelElement name="lblSmall" label="Small Label" type="big"/>
+        </Column>
+    </Row>
+    <Row>
+        <Column>
+            <Button name="control_13" label="Button"/>
+        </Column>
+    </Row>
+</Screen>
